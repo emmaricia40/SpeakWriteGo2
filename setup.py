@@ -11,6 +11,8 @@ setup(
     install_requires=[
         'numpy',
         'pytorch',
-        'openai'
+        'openai',
+        'openai-whisper',
+        'streamlit'
     ],
 )
