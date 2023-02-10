@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="SpeakWriteGo",
     py_modules=["whisper"],
-    version=read_version(),
+    version=0.1(),
     description="A library for transcribing audio to text",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
