@@ -2,18 +2,22 @@ from setuptools import setup, find_packages
 
 setup(
     name="SpeakWriteGo",
-    version="0.1",
+    py_modules=["whisper"],
+    version=read_version(),
     description="A Library for transcribing audio to text",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
+    readme="README.md",
+    python_requires=">=3.7",
     author="Emmaricia",
-    url="https://github.com/emma/SpeakWriteGo",
+    url="https://github.com/openai/whisper",
     license="MIT",
-    packages=find_packages(),
+    packages=["SpeakWriteGo"],
     install_requires=[
         'numpy',
-        'pytorch',
+        'torch',
         'openai',
+        'openai-whisper',
         'streamlit'
     ],
 )
