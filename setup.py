@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'numpy',
-        'pytorch',
+        'torch',
         'streamlit',
         'openai',
         'openai-whisper'
