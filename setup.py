@@ -10,9 +10,7 @@ setup(
     packages=["SpeakWriteGo"],
     install_requires=[
         'numpy',
-        'torch',
+        'pytorch',
         'openai',
-        'openai-whisper',
-        'streamlit'
     ],
 )
