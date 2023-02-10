@@ -12,7 +12,7 @@ setup(
     author="Emmaricia",
     url="https://github.com/openai/whisper",
     license="MIT",
-    packages=find_packages ["SpeakWriteGo"]),
+    packages=["SpeakWriteGo"]),
     install_requires=[
         'numpy',
         'pytorch',
